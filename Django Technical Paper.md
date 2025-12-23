@@ -226,7 +226,7 @@ INSTALLED_APPS = [
 - Session backend selection based on scalability requirements
 - Static file handling optimization for high-traffic applications
 
-![Defualt Django Apps](images/Default Django Apps.jpg)
+![Default Django Apps](images/DefaultDjangoApps.jpg)
 
 ---
 
