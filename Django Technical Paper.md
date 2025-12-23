@@ -363,6 +363,10 @@ CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SAMESITE = "Lax"
 ```
 
+![Types of Middleware](images/Types%20of%20Middleware%20%26%20Security%20Concerns.jpg)
+
+---
+
 ## 7. CSRF (Cross-Site Request Forgery)
 
 ### What is CSRF?
@@ -426,8 +430,6 @@ A technique where users are tricked into clicking hidden elements inside an ifra
 - `GZipMiddleware` – Compresses responses
 - `LocaleMiddleware` – Language selection
 - `BrokenLinkEmailsMiddleware` – Emails admins on 404 errors
-
-![Types of Middleware](images/Types%20of%20Middleware%20%26%20Security%20Concerns.jpg)
 
 ---
 
@@ -503,6 +505,8 @@ Examples:
 - `MinValueValidator`
 - `EmailValidator`
 - Custom validators
+
+![Fields & Validators](images/Fields%20and%20Validators.png)
 
 ---
 
@@ -612,7 +616,6 @@ Generated using:
 ### Example
 - Adding phone number field safely.
 
-![Migration Process](images/Fields%20and%20Validators.png)
 
 ---
 
